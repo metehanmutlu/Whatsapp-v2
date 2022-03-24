@@ -6,7 +6,7 @@ import { Avatar, IconButton } from '@mui/material';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import { useCollection } from 'react-firebase-hooks/firestore';
-import { addDoc, collection, doc, getDoc, orderBy, query, serverTimestamp, setDoc, where } from 'firebase/firestore';
+import { addDoc, collection, doc, getDoc, orderBy, query, setDoc, where } from 'firebase/firestore';
 import Message from './Message';
 import { InsertEmoticonOutlined } from '@mui/icons-material';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';

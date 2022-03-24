@@ -1,15 +1,20 @@
 import { Circle } from 'better-react-spinkit'
+import Image from 'next/image'
+import WpImage from '../public/wp-icon.png'
+
 
 function Loading() {
     return (
         <center onDragStart={(e) => e.preventDefault()} style={{ display: 'grid', placeItems: 'center', height: '100vh' }}>
             <div>
-                <img
-                    src="https://media.discordapp.net/attachments/852299725511327764/956685518882623558/580b57fcd9996e24bc43c543.png?width=701&height=701"
-                    alt=""
-                    style={{ marginBottom: 10 }}
+                <Image
+                    src={WpImage}
+                    alt=''
                     height={200}
+                    width={200}
                 />
+                <br />
+                <br />
                 <Circle color='#3cb328' size={60} />
             </div>
         </center >
